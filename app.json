@@ -1,8 +1,29 @@
 {
     "name": "Cloudreve-Heroku",
     "description": "Cloureve on Heroku with Redis",
-    "repository": "https://github.com/useblue/Cloudreve-Heroku",
+    "repository": "https://github.com/useblue/test",
     "website": "https://ifibe.com/",
     "keywords": ["cloudreve", "redis", "netdisc", "share"],
+	"env": {
+		"DB_Host": {
+			"description": "Database Host",
+			"value": "revert"
+		},
+		"DB_User": {
+			"description": "Database User",
+			"value": "revert"
+		},
+		"DB_Password": {
+			"description": "Database Password",
+			"value": "revert"
+		},
+		"DB_Name": {
+			"description": "Database Name",
+			"value": "revert"
+		}
+	},
+    "addons": [
+      "cleardb:ignite"
+    ],
     "stack": "container"
   }
