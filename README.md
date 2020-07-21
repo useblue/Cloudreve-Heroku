@@ -1,12 +1,13 @@
 # Cloudreve-Heroku with Redis + Cleardb Mysql(实验性修改)
 Cloudreve with redis的Docker版本
 ---
-一键部署在Heroku上：[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+一键部署在Heroku上：[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/useblue/Cloudreve-Heroku/tree/Heroku-mysql)
 
 ---
 ## 关于（目前）
 ### 使用redis:6.0.5-alpine镜像制作，默认开启Redis缓存服务
 ### 实验性内容：手动附加的Cleardb Mysql数据库（默认数据库空间为5MB）
+### 应用程序升级或变更时，配置文件与数据库均可保留
 ### 容器中的Redis版本为 6.0.5
 ### 容器中的Cloudreve版本为 cloudreve_3.1.1_linux_amd64(#27bf8ca)
 ---
