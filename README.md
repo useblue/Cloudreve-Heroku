@@ -9,7 +9,7 @@ Cloudreve with redis的Docker版本
 ### 实验性内容：手动附加的Cleardb Mysql数据库（默认数据库空间为5MB）
 ### 应用程序升级或变更时，配置文件与数据库均可保留
 ### 容器中的Redis版本为 6.0.5
-### 容器中的Cloudreve版本为 cloudreve_3.1.1_linux_amd64(#27bf8ca)
+### 容器中的Cloudreve版本为 cloudreve_3.2.1_linux_amd64(#3b22b4f)
 ---
 ## 账户信息-请及时修改
 第一次部署完成后在应用程序设置中编辑环境变量选项，根据`CLEARDB_DATABASE_URL`编辑对应条目
