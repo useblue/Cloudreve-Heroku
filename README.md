@@ -5,11 +5,11 @@ Cloudreve with redis的Docker版本
 
 ---
 ## 关于（目前）
-### 使用redis:6.0.5-alpine镜像制作，默认开启Redis缓存服务
+### 使用redis:alpine镜像制作，默认开启Redis缓存服务
 ### 实验性内容：手动附加的Cleardb Mysql数据库（默认数据库空间为5MB）
 ### 应用程序升级或变更时，配置文件与数据库均可保留
-### 容器中的Redis版本为 6.0.5
-### 容器中的Cloudreve版本为 cloudreve_3.2.1_linux_amd64(#3b22b4f)
+### 容器中的Redis版本为 6.2.1
+### 容器中的Cloudreve版本为 cloudreve_3.3.1_linux_amd64(#a1252c8)
 ---
 ## 账户信息-请及时修改
 第一次部署完成后在应用程序设置中编辑环境变量选项，根据`CLEARDB_DATABASE_URL`编辑对应条目
@@ -25,6 +25,8 @@ Cloudreve with redis的Docker版本
 `Database Name`=`heroku_db`
 
 编辑完成在应用日志中查看默认的账户密码`只会显示一次，如果没有应该是错过了log，请删除应用重新配置`
+
+DEMO : https://cloudre.herokuapp.com/
 
 ---
 #### 可能会随Cloudreve仓库进行大版本更新
