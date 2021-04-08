@@ -1,14 +1,14 @@
 # Cloudreve-Heroku with Redis
 Cloudreve with redis的Docker版本
 ---
-一键部署在Heroku上：[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+一键部署在Heroku上：[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/useblue/Cloudreve-Heroku)
 
 ---
 #### 查看mysql（实验）版：https://github.com/useblue/Cloudreve-Heroku/tree/Heroku-mysql
 ## 关于（目前）
-### 使用redis:6.0.5-alpine镜像制作，默认开启Redis缓存服务
-### 容器中的Redis版本为 6.0.5
-### 容器中的Cloudreve版本为 cloudreve_3.2.1_linux_amd64(#3b22b4f)
+### 使用redis:alpine镜像制作，默认开启Redis缓存服务
+### 容器中的Redis版本为 6.2.1
+### 容器中的Cloudreve版本为 cloudreve_3.3.1_linux_amd64(#a1252c8)
 ---
 ## 账户信息-请及时修改
 ### 用户名：admin@cloudreve.org
