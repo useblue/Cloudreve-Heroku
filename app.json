@@ -7,23 +7,44 @@
 	"env": {
 		"DB_Host": {
 			"description": "Database Host",
-			"value": "revert"
+			"value": "Database Host"
 		},
 		"DB_User": {
 			"description": "Database User",
-			"value": "revert"
+			"value": "Database User"
 		},
 		"DB_Password": {
 			"description": "Database Password",
-			"value": "revert"
+			"value": "Database Password"
 		},
 		"DB_Name": {
 			"description": "Database Name",
-			"value": "revert"
+			"value": "Database Name"
+		},
+		"DB_PORT": {
+			"description": "Database Port",
+			"value": "3306"
+		},
+		"REDIS_SERVER": {
+			"description": "Redis Server",
+			"value": "127.0.0.1:6379"
+		},
+		"REDIS_DB": {
+			"description": "Redis Database",
+			"value": "0"
+		},
+		"DEBUG_MOD": {
+			"description": "DEBUG MOD",
+			"value": "FALSE"
+		},
+		"MODE": {
+			"description": "Server Mode",
+			"value": "master"
 		}
 	},
     "addons": [
-      "cleardb:ignite"
+      "cleardb:ignite",
+      "logdna:quaco"
     ],
     "stack": "container"
   }

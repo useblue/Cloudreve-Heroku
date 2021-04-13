@@ -16,6 +16,7 @@ Cloudreve with redis的Docker版本
 ### 模板：
 `CLEARDB_DATABASE_URL`=`mysql://adffdadf2341:adf4234@us-cdbr-east.cleardb.com/heroku_db?reconnect=true`=`mysql://Database User:Database Password@Database Host/Database Name?reconnect=true`
 
+```
 `Database Host`=`us-cdbr-east.cleardb.com`
 
 `Database User`=`adffdadf2341`
@@ -23,8 +24,50 @@ Cloudreve with redis的Docker版本
 `Database Password`=`adf4234`
 
 `Database Name`=`heroku_db`
+```
 
-编辑完成在应用日志中查看默认的账户密码`只会显示一次，如果没有应该是错过了log，请删除应用重新配置`
+编辑完成在应用日志或`LogDNA`中查看默认的账户密码,编辑完成后可选择重新部署或重启节点。
+
+### 环境变量
+
+```
+		"DB_Host": {
+			"description": "Database Host",
+			"value": "Database Host"
+		},
+		"DB_User": {
+			"description": "Database User",
+			"value": "Database User"
+		},
+		"DB_Password": {
+			"description": "Database Password",
+			"value": "Database Password"
+		},
+		"DB_Name": {
+			"description": "Database Name",
+			"value": "Database Name"
+		},
+		"DB_PORT": {
+			"description": "Database Port",
+			"value": "3306"
+		},
+		"REDIS_SERVER": {
+			"description": "Redis Server",
+			"value": "127.0.0.1:6379"
+		},
+		"REDIS_DB": {
+			"description": "Redis Database",
+			"value": "0"
+		},
+		"DEBUG_MOD": {
+			"description": "DEBUG MOD",
+			"value": "FALSE"
+		},
+		"MODE": {
+			"description": "Server Mode",
+			"value": "master"
+		}
+```
 
 DEMO : https://cloudre.herokuapp.com/
 
