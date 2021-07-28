@@ -7,14 +7,14 @@ Cloudreve with redis的Docker版本
 #### 查看mysql（实验）版：https://github.com/useblue/Cloudreve-Heroku/tree/Heroku-mysql
 ## 关于（目前）
 ### 使用redis:alpine镜像制作，默认开启Redis缓存服务
-### 容器中的Redis版本为 6.2.1
-### 容器中的Cloudreve版本为 cloudreve_3.3.1_linux_amd64(#a1252c8)
+### 容器中的Redis版本为 6.2.5
+### 容器中的Cloudreve版本为 cloudreve_3.3.2_linux_amd64(#db7489f)
 ---
 ## 账户信息-请及时修改
 ### 用户名：admin@cloudreve.org
 ### 密码：vUUH4MpL
 ---
-#### 可能会随Cloudreve仓库进行大版本更新
+
 #### 生成日志：
 ```
    ___ _                 _
