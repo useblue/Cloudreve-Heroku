@@ -1,49 +1,12 @@
 {
     "name": "Cloudreve-Heroku",
-    "description": "Cloureve on Heroku with Redis",
-    "repository": "https://github.com/useblue/Cloudreve-Heroku/tree/Heroku-mysql",
-    "website": "https://ifibe.com/",
+    "description": "Cloureve on Heroku",
+    "repository": "https://github.com/useblue/Cloudreve-Heroku/tree/Cloudreve-Heroku",
+    "website": "https://ifibe.com/posts/458e93i5/",
     "keywords": ["cloudreve", "redis", "netdisc", "share"],
-	"env": {
-		"DB_Host": {
-			"description": "Database Host",
-			"value": "Database Host"
-		},
-		"DB_User": {
-			"description": "Database User",
-			"value": "Database User"
-		},
-		"DB_Password": {
-			"description": "Database Password",
-			"value": "Database Password"
-		},
-		"DB_Name": {
-			"description": "Database Name",
-			"value": "Database Name"
-		},
-		"DB_PORT": {
-			"description": "Database Port",
-			"value": "3306"
-		},
-		"REDIS_SERVER": {
-			"description": "Redis Server",
-			"value": "127.0.0.1:6379"
-		},
-		"REDIS_DB": {
-			"description": "Redis Database",
-			"value": "0"
-		},
-		"DEBUG_MOD": {
-			"description": "DEBUG MOD",
-			"value": "FALSE"
-		},
-		"MODE": {
-			"description": "Server Mode",
-			"value": "master"
-		}
-	},
     "addons": [
-      "cleardb:ignite",
+      "heroku-postgresql:hobby-dev",
+      "heroku-redis:hobby-dev",
       "logdna:quaco"
     ],
     "stack": "container"

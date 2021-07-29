@@ -1,4 +1,4 @@
-FROM redis:alpine
+FROM alpine:latest
 
 # Add glibc package
 COPY ./glibc-2.33-r0.apk /lib/

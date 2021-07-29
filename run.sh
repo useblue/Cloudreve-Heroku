@@ -2,31 +2,31 @@
 cat <<-EOF > /root/cloudreve/conf.ini
 [System]
 ; 运行模式
-Mode = $MODE
+Mode = master
 ; 监听端口
 Listen = :${PORT}
 ; 是否开启 Debug
-Debug = $DEBUG_MOD
+Debug = false
 SessionSecret = DwueqsOCChydmVIgTFtXNsqGNh3iUVOVyjdyBHPTppjG7FP1SiQYBOSZdOf35Pm7
 HashIDSalt = LzCgoB9pLdHYwsPQJ46AIDtLfkZ4KbtprcI8cxoKnwj58kFctbc9q3CmTUdXsCFP
 [Redis]
-Server = $REDIS_SERVER
-Password =
-DB = $REDIS_DB
+Server = ${REDIS_URL##*@}
+Password = ${REDIS_URL:9:65}
+DB = 0
 [Database]
 ; 数据库类型，目前支持 sqlite | mysql
 Type = mysql
 ; 数据库地址
-Host = $DB_Host
+Host = ${DATABASE_URL:91:41}
 ; MySQL 端口
-Port = $DB_PORT
+Port = ${DATABASE_URL:133:4}
 ; 用户名
-User = $DB_User
+User = ${DATABASE_URL:11:14}
 ; 密码
-Password = $DB_Password
+Password = ${DATABASE_URL:26:64}
 ; 数据库名称
-Name = $DB_Name
+Name = ${DATABASE_URL:138:14}
 ; 数据表前缀
-TablePrefix = cd
+TablePrefix = cd_
 EOF
-(redis-server &) && (./cloudreve -c ./conf.ini)
+./cloudreve -c ./conf.ini
