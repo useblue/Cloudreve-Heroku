@@ -15,7 +15,7 @@ Password = ${REDIS_URL:9:65}
 DB = 0
 [Database]
 ; 数据库类型，目前支持 sqlite | mysql
-Type = mysql
+Type = postgres
 ; 数据库地址
 Host = ${DATABASE_URL:91:41}
 ; MySQL 端口
