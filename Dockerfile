@@ -1,4 +1,4 @@
-FROM redis:alpine
+FROM alpine:latest
 
 # Add glibc package
 COPY ./glibc-2.33-r0.apk /lib/
@@ -12,7 +12,6 @@ RUN apk add /lib/glibc-2.33-r0.apk
 # Set workdir
 WORKDIR /root/cloudreve
 ADD cloudreve ./cloudreve
-ADD conf.ini ./conf.ini
 ADD run.sh ./run.sh
 RUN chmod +x ./cloudreve
 RUN chmod +x ./run.sh
