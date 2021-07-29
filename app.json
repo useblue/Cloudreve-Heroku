@@ -4,5 +4,39 @@
     "repository": "https://github.com/useblue/Cloudreve-Heroku",
     "website": "https://ifibe.com/",
     "keywords": ["cloudreve", "redis", "netdisc", "share"],
+    "env": {
+      "DB_Type": {
+        "description": "Database Type|sqlite/mysql/mssql/postgres",
+        "value": "sqlite"
+      },
+      "DB_Host": {
+        "description": "Database Host",
+        "value": "127.0.0.1"
+      },
+      "DB_User": {
+        "description": "Database User",
+        "value": "root"
+      },
+      "DB_Password": {
+        "description": "Database Password",
+        "value": "root"
+      },
+      "DB_Name": {
+        "description": "Database Name",
+        "value": "v3"
+      },
+      "DB_PORT": {
+        "description": "Database Port",
+        "value": "3306"
+      },
+      "DB_Charset": {
+        "description": "Database Charset",
+        "value": "utf8"
+      },
+      "DB_TablePrefix": {
+        "description": "Database TablePrefix",
+        "value": "cd"
+      }
+    },
     "stack": "container"
   }

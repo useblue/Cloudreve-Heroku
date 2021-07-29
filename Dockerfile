@@ -13,7 +13,6 @@ RUN apk add /lib/glibc-2.33-r0.apk
 WORKDIR /root/cloudreve
 
 ADD cloudreve ./cloudreve
-ADD conf.ini ./conf.ini
 ADD cloudreve.db ./cloudreve.db
 ADD run.sh ./run.sh
 
