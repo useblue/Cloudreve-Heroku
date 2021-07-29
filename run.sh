@@ -25,7 +25,7 @@ User = ${DATABASE_URL:11:14}
 ; 密码
 Password = ${DATABASE_URL:26:64}
 ; 数据库名称
-Name = ${DATABASE_URL:138:14}
+Name = ${DATABASE_URL##*/}
 ; 数据表前缀
 TablePrefix = cd_
 EOF
