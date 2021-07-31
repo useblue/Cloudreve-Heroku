@@ -8,8 +8,6 @@ Cloudreve with redis的Docker版本
 
 ---
 
-DEMO : https://cloudre.herokuapp.com/
-
 查看自定义版：https://github.com/useblue/Cloudreve-Heroku/
 
 查看Heroku Redis + Heroku Postgres版：https://github.com/useblue/Cloudreve-Heroku/tree/Cloudreve-Heroku
@@ -24,10 +22,6 @@ DEMO : https://cloudre.herokuapp.com/
 
 默认数据库空间为5MB
 
-应用程序升级或变更时，配置文件与数据库均可保留
-
-容器中的Cloudreve版本为 cloudreve_3.3.2_linux_amd64(#db7489f)
-
 高级版用户可自行修改`app.json`中`addons`参数以获得更好的体验，具体参数参考如下：
 
 ```
@@ -41,6 +35,8 @@ Cloudreve 捐赠版（299元） ：http://cloudreve.org/buy.php
 #### 账户信息-请及时修改
 
 > 部署完成在应用日志或`LogDNA`中查看默认的账户密码
+
+重置管理员密码（需本地环境操作）[点击跳转](https://ifibe.com/posts/c12ba40e/#配置文件)
 
 ---
 
