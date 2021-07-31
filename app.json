@@ -2,7 +2,7 @@
     "name": "Cloudreve-Heroku",
     "description": "Cloureve on Heroku with Redis",
     "repository": "https://github.com/useblue/Cloudreve-Heroku",
-    "website": "https://ifibe.com/",
+    "website": "https://ifibe.com/posts/c12ba40e/",
     "keywords": ["cloudreve", "redis", "netdisc", "share"],
     "env": {
       "DB_Type": {

@@ -8,11 +8,9 @@ Cloudreve with redis的Docker版本
 
 ---
 
-DEMO : https://cloudre.herokuapp.com/
-
 查看Heroku Redis + Heroku Postgres版：https://github.com/useblue/Cloudreve-Heroku/tree/Cloudreve-Heroku
 
-查看mysql版：https://github.com/useblue/Cloudreve-Heroku/tree/Heroku-mysql
+查看Jawsdb Mysql版：https://github.com/useblue/Cloudreve-Heroku/tree/Heroku-mysql
 
 #### 关于
 
@@ -29,6 +27,8 @@ DEMO : https://cloudre.herokuapp.com/
 用户名：admin@cloudreve.org
 
 密码：vUUH4MpL
+
+重置管理员密码（需本地环境操作）[点击跳转](https://ifibe.com/posts/c12ba40e/#配置文件)
 
 #### 自定义信息
 
