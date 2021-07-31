@@ -4,8 +4,6 @@ cat <<-EOF > /root/cloudreve/conf.ini
 Mode = master
 Listen = :${PORT}
 Debug = false
-SessionSecret = DwueqsOCChydmVIgTFtXNsqGNh3iUVOVyjdyBHPTppjG7FP1SiQYBOSZdOf35Pm7
-HashIDSalt = LzCgoB9pLdHYwsPQJ46AIDtLfkZ4KbtprcI8cxoKnwj58kFctbc9q3CmTUdXsCFP
 [Redis]
 Server = ${REDIS_URL##*@}
 Password = ${REDIS_URL:9:65}

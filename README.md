@@ -1,6 +1,6 @@
-### Cloudreve-Heroku with Heroku Redis + Heroku Postgres(需要已验证的Heroku账户)
+#### Cloudreve-Heroku with Heroku Redis + Heroku Postgres(需要已验证的Heroku账户)
 
-### Cloudreve的Docker版本
+Cloudreve的Docker版本
 
 ---
 
@@ -30,6 +30,8 @@ Cloudreve 捐赠版（299元） ：http://cloudreve.org/buy.php
 #### 账户信息-请及时修改
 
 > 部署完成在应用日志或`LogDNA`中查看默认的账户密码
+
+重置管理员密码（需本地环境操作）[点击跳转](https://ifibe.com/posts/c12ba40e/#配置文件)
 
 ---
 
