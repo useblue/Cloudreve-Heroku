@@ -8,8 +8,6 @@ Cloudreve的Docker版本
 
 ---
 
-DEMO : https://cloudre.herokuapp.com/
-
 #### 关于
 使用alpine:latest镜像制作，默认开启Redis缓存服务
 
