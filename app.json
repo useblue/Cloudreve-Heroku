@@ -7,7 +7,7 @@
     "env": {
       "DB_Type": {
         "description": "Database Type|sqlite/mysql/mssql/postgres",
-        "value": "sqlite"
+        "value": "mysql"
       },
       "DB_Host": {
         "description": "Database Host",

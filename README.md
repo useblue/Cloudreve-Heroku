@@ -10,7 +10,7 @@ Cloudreve with redis的Docker版本
 
 查看Heroku Redis + Heroku Postgres版：https://github.com/useblue/Cloudreve-Heroku/tree/Cloudreve-Heroku
 
-查看Jawsdb Mysql版：https://github.com/useblue/Cloudreve-Heroku/tree/Heroku-mysql
+查看Heroku Redis + Jawsdb Mysql版：https://github.com/useblue/Cloudreve-Heroku/tree/Heroku-mysql
 
 #### 关于
 
@@ -24,9 +24,7 @@ Cloudreve with redis的Docker版本
 
 #### 账户信息-请及时修改
 
-用户名：admin@cloudreve.org
-
-密码：vUUH4MpL
+已取消sqlite部署方式，请使用第三方mysql数据库进行连接
 
 重置管理员密码（需本地环境操作）[点击跳转](https://ifibe.com/posts/c12ba40e/#配置文件)
 

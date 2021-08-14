@@ -7,8 +7,6 @@ Mode = master
 Listen = :${PORT}
 ; 是否开启 Debug
 Debug = false
-SessionSecret = 8bWePDc6nM0TZOscefyeX3BIGGP2ds9WFTfCsxPs7DsjUSXv0PEnQUy80QJrwnjg
-HashIDSalt = fvc3S1QPkP3TpLlVfCx97frzHnx6lNBOm9m8tVdtox1K6kslzCHaPSSGMC7T1gVc
 [Redis]
 Server = 127.0.0.1:6379
 Password =
