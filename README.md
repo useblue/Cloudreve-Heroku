@@ -18,7 +18,7 @@ Cloudreve with redis的Docker版本
 
 应用程序升级或变更时，配置文件与数据库均可保留
 
-容器中的Cloudreve版本为 cloudreve_3.3.2_linux_amd64(#db7489f)
+容器中的Cloudreve版本为 cloudreve_3.4.0_linux_amd64
 
 默认数据库空间为5MB
 
