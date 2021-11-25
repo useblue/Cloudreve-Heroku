@@ -13,7 +13,7 @@ Cloudreve的Docker版本
 
 应用程序升级或变更时，配置文件与数据库均可保留
 
-容器中的Cloudreve版本为 cloudreve_3.3.2_linux_amd64(#db7489f)
+容器中的Cloudreve版本为 cloudreve_3.4.0_linux_amd64 -测试不可用
 
 高级版用户可自行修改`app.json`中`addons`参数以获得更好的体验，具体参数参考如下：
 
