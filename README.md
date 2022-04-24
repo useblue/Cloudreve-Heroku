@@ -16,7 +16,7 @@ Cloudreve with redis的Docker版本
 
 使用redis:alpine镜像制作，默认开启Redis缓存服务
 
-容器中的Cloudreve版本为 cloudreve_3.4.0_linux_amd64
+容器中的Cloudreve版本为 cloudreve_3.5.0_linux_amd64
 
 ---
 
